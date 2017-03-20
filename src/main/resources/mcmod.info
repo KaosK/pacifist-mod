@@ -3,7 +3,7 @@
   "modid": "pacifist",
   "name": "Pacifist",
   "description": "A better peaceful mode for minecraft.",
-  "version": "version*",
+  "version": "0.1",
   "mcversion": "mcversion",
   "url": "",
   "updateUrl": "",

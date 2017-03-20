@@ -1,5 +1,6 @@
 package kaosklaus.mods.pacifist;
 
+import kaosklaus.mods.pacifist.recipes.VanillaRecipes;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -14,7 +15,7 @@ public class PacifistMod
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        // some example code
         System.out.println("Pacifist load");
+        VanillaRecipes.init();
     }
 }

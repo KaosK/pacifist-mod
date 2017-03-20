@@ -14,20 +14,18 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
-public class ForgeEventHandler {
+public class LootTableEventHandler {
 
     @SubscribeEvent
     public static void lootTableLoad(LootTableLoadEvent event) {
         ResourceLocation resource = event.getName();
 
         if (resource.equals(LootTableList.ENTITIES_COW)) {
-            System.out.println("**********************************COW LOOT");
             event.getTable().addPool(createLootPool(Items.BONE));
         } else if (resource.equals(LootTableList.ENTITIES_PIG)) {
-            System.out.println("**********************************PIG LOOT");
-
+            event.getTable().addPool(createLootPool(Items.BONE));
         } else if (resource.equals(LootTableList.ENTITIES_SHEEP)) {
-
+            event.getTable().addPool(createLootPool(Items.BONE));
         } else if (resource.equals(LootTableList.ENTITIES_CHICKEN)) {
 
         } else if (resource.equals(LootTableList.ENTITIES_HORSE)) {

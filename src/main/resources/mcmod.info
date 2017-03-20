@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pacifist",
+  "name": "Pacifist",
+  "description": "A better peaceful mode for minecraft.",
+  "version": "version*",
+  "mcversion": "mcversion",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["KaosKlaus"],
+  "credits": "KaosKlaus",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
